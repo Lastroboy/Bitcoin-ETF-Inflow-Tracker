@@ -76,13 +76,13 @@ Le projet est organisé en 4 phases principales :
 - La publication Twitter est commentée par défaut dans le code
 
 - Le script analyse les principaux ETF Bitcoin :
-    • IBIT (BlackRock) 
-    • FBTC (Fidelity) 
-    • BITB (Bitwise) 
-    • ARKB (ARK 21Shares) 
-    • BTCO, EZBC, BRRR, HODL, BTCW 
-    • GBTC (Grayscale) 
-    • BTC (Autres) 
+    - IBIT (BlackRock) 
+    - FBTC (Fidelity) 
+    - BITB (Bitwise) 
+    - ARKB (ARK 21Shares) 
+    - BTCO, EZBC, BRRR, HODL, BTCW 
+    - GBTC (Grayscale) 
+    - BTC (Autres) 
 
 ## 🤝 Contribution
 
