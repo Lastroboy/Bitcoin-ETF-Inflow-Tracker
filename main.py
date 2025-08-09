@@ -113,7 +113,7 @@ def generate_message(df):
 # Phase 4 : Post Twitter
 # ========================
 def post_to_twitter(message):
-    # Récupération des clefs d'authentification
+    # Récupération des clés d'authentification
     with open("credentials.json", 'r') as f:
         creds = json.load(f)
 
@@ -126,6 +126,7 @@ def post_to_twitter(message):
     auth = tweepy.OAuth1UserHandler(consumer_key, consumer_secret, access_token, access_token_secret)
     api = tweepy.API(auth)
 
+    # Publication du message
     try:
         api.update_status(message)
         print("[INFO] Tweet publié avec succès.")
@@ -153,4 +154,5 @@ def main():
         #time.sleep(2*60)
 
 if __name__ == "__main__":
+
     main()
